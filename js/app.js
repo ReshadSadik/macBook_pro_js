@@ -4,7 +4,6 @@ document.getElementById("memory-8-add").addEventListener('click',function(){
     priceUpdate();
 });
 // selectiong 16gb memory
-
 document.getElementById("memory-16-add").addEventListener('click',function(){
     itemUpdate("memory",180);
     priceUpdate();
@@ -24,7 +23,6 @@ document.getElementById("storage-1tb-add").addEventListener('click',function(){
     itemUpdate("storage",180);
     priceUpdate();
 });
-
 // selecting delivery for 25 aug
 document.getElementById("delivery-21-add").addEventListener('click',function(){
     itemUpdate("delivery",0);
