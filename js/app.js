@@ -60,5 +60,6 @@ function promoCode(){
     const newTotal= totalPrice-(totalPrice*20/100).toFixed(2);
     if(promoInput.value=="stevekaku"){
         document.getElementById("final-total").innerText= newTotal;
+        promoInput.value= "";
     }
 }
