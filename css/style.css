@@ -33,3 +33,7 @@ hr {
 }
 
 /* ----------------------- */
+.price {
+  display: block;
+  font-size: 22px;
+}
